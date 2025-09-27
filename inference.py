@@ -32,13 +32,19 @@ def main():
     print("Model loaded successfully.")
 
     # --- Create a Sample User for the Demo ---
+    # Randomize interests for varied demos
+    categories = ['sports', 'tech', 'fashion', 'food', 'travel']
+    interests = {cat: np.random.random() for cat in categories}
     sample_user_profile = {
         "id": "demo_user_123",
-        "interests": {'sports': 0.8, 'tech': 0.1, 'fashion': 0.2, 'food': 0.4, 'travel': 0.7},
-        "patience_level": 0.6
+        "interests": interests,
+        "patience_level": np.random.uniform(0.3, 0.9)
     }
     sample_user = User(**sample_user_profile)
-    print(f"\nCreated a sample user with interests in 'sports' and 'travel'.")
+    # Find top 2 interests for printing
+    top_interests = sorted(interests.items(), key=lambda x: x[1], reverse=True)[:2]
+    interest_names = [name for name, _ in top_interests]
+    print(f"\nCreated a sample user with interests in '{interest_names[0]}' and '{interest_names[1]}'.")
 
     # --- Simulate the Start of a Session to Get a State ---
     # The 'reset' method prepares the environment for the new user and returns the initial state

@@ -54,16 +54,18 @@ Example outputs:
 Loading trained model from 'facade_model.pkl'...
 Model loaded successfully.
 
-Created a sample user with interests in 'sports' and 'travel'.
+Created a sample user with interests in 'tech' and 'food'.
 
 Simulating start of session. Initial state for the agent:
-[0.8 0.1 0.2 0.4 0.7 0.  0.  0.  0.6 0.  0.  0.  0.  0. ]
+[0.0721851  0.873756   0.36416262 0.7099551  0.48997286 0.
+ 0.         0.         0.3608316  0.         0.         0.
+ 0.         0.        ]
 
 ==================== Agent's Decision ====================
-Recommended Action: Show Ad #8
-  - Category: sports
-  - Relevance Score: 0.30278881708125654
-  - Click Value: $2.81
+Recommended Action: Show Ad #18
+  - Category: fashion
+  - Relevance Score: 0.5925505232093682
+  - Click Value: $1.48
 ==========================================================
 ```
 
@@ -75,16 +77,18 @@ Recommended Action: Show Ad #8
 Loading trained model from 'facade_model.pkl'...
 Model loaded successfully.
 
-Created a sample user with interests in 'sports' and 'travel'.
+Created a sample user with interests in 'food' and 'travel'.
 
 Simulating start of session. Initial state for the agent:
-[0.8 0.1 0.2 0.4 0.7 0.  0.  0.  0.6 0.  0.  0.  0.  0. ]
+[0.26137498 0.19076613 0.14005695 0.9419397  0.6099581  0.
+ 0.         0.         0.70459545 0.         0.         0.
+ 0.         0.        ]
 
 ==================== Agent's Decision ====================
-Recommended Action: Show Ad #8
-  - Category: food
-  - Relevance Score: 0.35637223436385024
-  - Click Value: $1.78
+Recommended Action: Show Ad #5
+  - Category: travel
+  - Relevance Score: 0.7119103721059065
+  - Click Value: $3.10
 ==========================================================
 ```
 
@@ -96,16 +100,18 @@ Recommended Action: Show Ad #8
 Loading trained model from 'facade_model.pkl'...
 Model loaded successfully.
 
-Created a sample user with interests in 'sports' and 'travel'.
+Created a sample user with interests in 'food' and 'tech'.
 
 Simulating start of session. Initial state for the agent:
-[0.8 0.1 0.2 0.4 0.7 0.  0.  0.  0.6 0.  0.  0.  0.  0. ]
+[0.48964655 0.82860184 0.36085954 0.8294869  0.5173254  0.
+ 0.         0.         0.31208152 0.         0.         0.
+ 0.         0.        ]
 
 ==================== Agent's Decision ====================
-Recommended Action: Show Ad #8
-  - Category: travel
-  - Relevance Score: 0.34556114008612815
-  - Click Value: $1.97
+Recommended Action: Show Ad #9
+  - Category: sports
+  - Relevance Score: 0.38044689483262445
+  - Click Value: $3.52
 ==========================================================
 ```
 
