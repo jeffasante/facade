@@ -8,6 +8,11 @@ This project simulates an ad environment where a Deep Q-Network (DQN) agent lear
 
 ![Policy Comparison](results/facade_results/policy_comparison.png)
 
+## Try it in Google Colab
+
+For a quick demo without installation, try the interactive notebook:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15yyhranLEL_CsIT3H2HamYBimuqqKSk6?usp=sharing)
+
 ## Installation
 
 1. Clone the repository.
