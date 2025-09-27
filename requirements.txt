@@ -1,0 +1,8 @@
+numpy
+jax
+matplotlib
+pandas
+jax
+seaborn
+flax
+optax

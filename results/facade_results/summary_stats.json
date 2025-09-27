@@ -1,0 +1,7 @@
+{
+  "training_episodes": 1000,
+  "final_avg_reward": -14.632132109257572,
+  "rl_vs_aggressive_improvement": 55.50064101745109,
+  "dropout_reduction": -40,
+  "final_epsilon": 0.009998671593271896
+}
